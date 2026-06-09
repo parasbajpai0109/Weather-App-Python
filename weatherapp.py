@@ -7,7 +7,7 @@ while True:
         print("Thanks for using Weather-app")
         break
 
-    api_key = "f991d5e1de644521a38103227260806"
+    api_key = "YOUR API KEY"
     url =f"https://api.weatherapi.com/v1/current.json?key={api_key}&q={city}"
 
     response = requests.get(url)
